@@ -1,0 +1,51 @@
+/* src/App.css */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fafafc;
+  padding: 2em;
+  border-radius: 7px;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+  font-family: system-ui, sans-serif;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+.block {
+  margin-bottom: 1.5em;
+}
+label {
+  font-weight: bold;
+  margin-bottom: 0.4em;
+  display: block;
+}
+textarea, input[type="text"] {
+  width: 100%;
+  font-size: 1.1em;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  padding: 8px;
+  margin-bottom: 0.6em;
+}
+input[type="file"] {
+  margin-top: 0.5em;
+}
+button {
+  background: #204fff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 14px;
+  font-size: 1em;
+  cursor: pointer;
+}
+button[disabled] {opacity: 0.5;}
+.transcript, .ai-answer {
+  background: #f4f6ff;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1.06em;
+  min-height: 36px;
+}
+span { margin-left: 1em; color: green;}
