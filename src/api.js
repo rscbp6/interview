@@ -1,6 +1,6 @@
 // src/api.js
 
-const API_BASE = "https://<YOUR-RAILWAY-BACKEND-URL>"; // Replace with live backend
+const API_BASE = "https://interview-23uz.onrender.com"; // Replace with live backend
 
 export async function uploadResume(file, sessionId) {
   const formData = new FormData();
