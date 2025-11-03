@@ -61,7 +61,6 @@ async def interview_text(question: str = Form(...), session_id: str = Form(...))
         session_store[session_id].get('jd')
     )
     return {"answer": ai_answer}
-
 @app.get("/")
 def health_check():
     return {"status": "API running"}
